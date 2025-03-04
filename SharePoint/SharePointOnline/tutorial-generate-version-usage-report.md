@@ -49,7 +49,7 @@ In later tutorials, review how you can run impact analysis on the generated CSV 
 
 ## Generate version usage report for sites or library
 
-You can generate a report on the current version storage use on a site by running the `New-SPOSiteFileVersionExpirationReportJob` command or on a library by running the `New-SPOListFileVersionBatchDeleteJob` command.
+You can generate a report on the current version storage use on a site by running the `New-SPOSiteFileVersionExpirationReportJob` command or on a library by using the -List parameter.
 
 In the following example, a job is queued to generate a site-scoped report at the report location, `https://contoso.sharepoint.com/sites/sites1/reports/MyReports/VersionReport.csv`.  
 
